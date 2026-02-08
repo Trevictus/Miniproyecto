@@ -1,1 +1,25 @@
 /* You can add global styles to this file, and also import other style files */
+.header {
+  background-color: #fff; color: white; padding: 1rem;
+}
+
+.footer {
+  background-color: #f8f9fa; padding: 1rem; text-align: center;
+}
+
+.l-main{
+  min-height: 80vh; padding: 2rem 0;
+}
+
+$priority-high: #ff4d4d;
+.task-card {
+  transition: all 0.3s ease;
+  &:hover {
+    transform: translateY(-5px); box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1);
+  }
+
+}
+
+.high-priority {
+  border-left: 5px solid $priority-high;
+}
